@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myshopapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".add_update_table_record"></activity>
+        <activity android:name=".Table_Record" />
+        <activity android:name=".Order_Status_Changer" />
+        <activity android:name=".Order_confirmation" />
+        <activity android:name=".Orders_Managment" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Setting" />
+        <activity android:name=".SaveKey" />
+        <activity android:name=".ExpireActivity" />
+        <activity android:name=".Account_Section" />
+        <activity android:name=".Order_Place" />
+        <activity android:name=".Buy_From_Supplier" />
+        <activity android:name=".Sell_On_Customer" />
+        <activity android:name=".Item_Record" />
+        <activity android:name=".add_update_item" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Supplier_Record" />
+        <activity android:name=".add_update_supplier_rec" />
+        <activity android:name=".add_update_customer_record" />
+        <activity android:name=".Customer_Record" />
+        <activity android:name=".Supplier_Record_Detail" />
+        <activity android:name=".Total_Stock_amount" />
+        <activity android:name=".Customer_Record_Detail">
+            </activity>
+
+        <receiver android:name=".NetworkMonitor">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

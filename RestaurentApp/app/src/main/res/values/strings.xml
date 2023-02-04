@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Delivery App</string>
+    <string name="UrdubtnSetting">ترتیبات</string>
+    <string name="UrdubtnItem">اشیاء ریکارڈ</string>
+    <string name="UrdubtnCustomer">کسٹمر ریکارڈ</string>
+    <string name="UrdubtnSupplier">سپلائر ریکارڈ</string>
+    <string name="UrdubtnAccount">اکاونٹ سیکشن</string>
+    <string name="englishbtnSetting">Settings</string>
+    <string name="englishbtnItem">Items Record</string>
+    <string name="englishbtnCustomer">Customer Record</string>
+    <string name="englishbtnSupplier">Supplier Record</string>
+    <string name="englishbtnAccount">Account Section</string>
+</resources>

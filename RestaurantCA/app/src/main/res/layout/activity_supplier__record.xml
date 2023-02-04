@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context=".Supplier_Record"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradiant_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textSize="24dp"
+    android:id="@+id/btntotalQarza"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:textColor="@color/textcolor"
+    android:text="Total Loan:"/>
+
+
+
+
+-<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:padding="10dp">
+
+    <ListView
+        android:background="@drawable/white_edt"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/listView1"
+        android:layout_weight="1">
+    </ListView>
+
+</LinearLayout>
+
+<Button
+
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/btnNew"
+    android:layout_gravity="center_horizontal"
+    android:text="New Entry"
+    android:textStyle="bold"
+    android:background="@drawable/yellow_button"
+    android:textColor="@color/textcolor"
+    android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
+
